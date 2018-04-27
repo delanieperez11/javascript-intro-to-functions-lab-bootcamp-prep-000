@@ -15,11 +15,11 @@ function sayHiToGrandma (string) {
   var uppercase = "YES INDEED!";
   var mixedCase = "I love you, too.";
   if (string.toLowerCase(string) === string) {
-    return cantUnswer;
+    return lowercase;
   }
-  else if (string.toUpperCase(string) === aWord) {
-    return yesUnswer;
+  else if (string.toUpperCase(string) === string) {
+    return uppercase;
   }
-  else if ("I love you, Grandma." === aWord) {
-    return lovUnswer
+  else if ("I love you, Grandma." === string) {
+    return mixedCase
   }
